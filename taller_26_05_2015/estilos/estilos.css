@@ -1,0 +1,92 @@
+footer{
+	text-align: center;
+}
+.jumbotron{
+	padding: 4em 1em;
+}
+a.navbar-brand{
+	color: #F3ECEC;
+}
+small#slogan{
+	font-style: italic;
+	font-size: 12px;
+	font-family: sans-serif;
+	color: #F3ECEC;
+}
+#cssmenu{
+	padding-top: 0.5em;
+	padding-bottom: 1em !important; 
+	width: 100%;
+	background-color: #49505A;
+	padding-left: 15% !important;
+}
+.contenedor{
+	width: 100%;
+	background-color: #49505A;
+}
+.row{
+	margin: 0;
+	padding: 0.5em;
+}
+div.container{
+	width:100%;
+	background: #F8F7F7;	
+}
+div.container div.jumbotron{
+	margin-top: 5em;
+	margin-right: 0;
+	width: 51%;
+	display: inline-block;
+	vertical-align: top;
+	background: #F8F7F7 !important;
+}
+div.cont-admi{
+	width: 95% !important;
+}
+div.container aside{
+	margin-top: 3em;
+	padding: 1.5em;
+	width: 24%;
+	background: #F8F7F7;
+	display: inline-block;
+	vertical-align: top;
+}
+.admin a{
+	color: #dddddd;
+	text-decoration: none;
+}
+.admin a:hover{
+	color: #ffffff;
+}
+.admin a:after{
+	background: #dddddd;
+}
+
+@media screen and (max-width: 768px) {
+
+	div.container div.jumbotron{
+		width: 100% !important;
+		display: block;
+	}
+	div.container aside{
+		width: 100%;
+		display: block;
+		margin-top: 0.5em;
+	}
+	h1{
+		font-size: 180%;
+		font-weight: bold;
+	}
+	#cssmenu{
+	padding-left: 10%;
+	padding-bottom: 0 !important; 
+	}
+	small#slogan{
+		border-bottom: solid 1px #B0AEAE;
+	}
+	.navbar-brand{
+		margin-bottom: 0.5em;
+		width: 90%;
+		text-align: center;		
+	}
+}

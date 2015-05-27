@@ -1,0 +1,3 @@
+
+DirectoryIndex index.php
+ErrorDocument 404 http://127.0.0.1/ing_web_2015/webapp2_28_4_2015/404.html
